@@ -68,6 +68,7 @@ pop();
   if(this.y > height+1500 ){
     this.y = height+1500 ;
     reiniciar = true;
+    window.location.reload();
   }
   // if(Cboss > 1800){
   //    window.location.reload(); 
@@ -129,7 +130,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
   }
   
   if(this.transicion == true){
-     window.location.reload(); 
+     
   }
 }
 }
