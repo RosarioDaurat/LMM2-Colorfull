@@ -68,6 +68,7 @@ pop();
   if(this.y > height+1500 ){
     this.y = height+1500 ;
     reiniciar = true;
+   // if (!final.isPlaying()) final.play();
     
   }
   // if(Cboss > 1800){
@@ -85,7 +86,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
       pop();
   
   
-  if(Cboss > 1650){
+  if(Cboss > 1600){
     this.y2+=3;
   }
   
