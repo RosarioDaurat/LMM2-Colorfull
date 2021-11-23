@@ -123,7 +123,7 @@ function draw() {
 
       if (Cboss > 550 && motivacion > 0) {
         if (!musica.isPlaying()) musica.loop();
-        musica.setVolume(0.2);
+        musica.setVolume(0.3);
         Nivel = "Finalfeliz";
       }
       if (Cboss > 550 && motivacion == 0) {
