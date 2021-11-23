@@ -124,7 +124,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
     
     if(this.tamy <= 2){
       this.x = -100;
-
+      this.tamy = 2;
     }
   }
   
