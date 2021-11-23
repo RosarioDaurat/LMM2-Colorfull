@@ -54,13 +54,13 @@ function preload() {
   yspeed = random(2.5, 5.5);
    tipografia = loadFont("PatrickHand-Regular.ttf");
   //------------------------MUSICA----------------------------------------
-  efecto = loadSound("sonidos/efecto.mp3");
+  efecto = loadSound("sonidos/sonidomagico.mp3");
   aturdido = loadSound("sonidos/aturdido.mp3");
   canto = loadSound("sonidos/Canto1parte.mp3");
   musica = loadSound("sonidos/musicaparte1.mp3");
   lluvia1 = loadSound("sonidos/Lluvia1.mp3");
   Trueno = loadSound("sonidos/Trueno.mp3");
-  efecto.setVolume(0.1);
+  efecto.setVolume(0.3);
   Trueno.setVolume(0.2);
   lluvia1.setVolume(0.4);
   musica.setVolume(0.3);
@@ -109,7 +109,8 @@ function preload() {
   alta = loadImage("otros/alta (1).png");
   media = loadImage("otros/media.png");
   baja = loadImage("otros/3baja.png");
-  vacia = loadImage("otros/baja0.png");
+  vacia = loadImage("otros/vacia.png");
+  nido = loadImage("otros/nido.png");
   
     fondo = fondo1;
 }  

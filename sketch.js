@@ -48,7 +48,7 @@ function draw() {
     }
 
     if (m == 1) {
-      musica.play();
+      musica.loop();
       m = 2;
     }
   }
@@ -71,6 +71,7 @@ function draw() {
     case "INICIO":
       if (contadorTormenta == 550) {
         if (!lluvia1.isPlaying()) lluvia1.loop();
+        musica.setVolume(0.1);
       }
       if (contadorTormenta > 600 && contadorTormenta < 900) {
         Nivel = "Tormenta1";
@@ -88,6 +89,7 @@ function draw() {
     //------------------TORMENTA2
     case "Tormenta2":
       yspeed = random(7, 9);
+      musica.stop();
       if (m == 2) {
         pausa = 10;
         m = 3;
@@ -119,11 +121,11 @@ function draw() {
         cantColores = 3;
       }
 
-      if (Cboss > 500 && motivacion > 0) {
+      if (Cboss > 550 && motivacion > 0) {
         if (!musica.isPlaying()) musica.loop();
         Nivel = "Finalfeliz";
       }
-      if (Cboss > 500 && motivacion == 0) {
+      if (Cboss > 550 && motivacion == 0) {
         Nivel = "Finaltriste";
       }
       break;
@@ -164,8 +166,6 @@ function draw() {
         m = 5;
       }
 
-      //cantGrises = 5;
-      //lluvia1.stop();
       Trueno.stop();
       r = 0;
       
@@ -189,7 +189,7 @@ function draw() {
       rect(0, 0, width, height); 
       }
       
-       let transicion4 = map(Cboss, 1600,1800, 200, 0);
+       let transicion4 = map(Cboss, 1500,1700, 200, 0);
 
       pausa = 10;
       pausaGrises = 10;
