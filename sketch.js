@@ -123,6 +123,7 @@ function draw() {
 
       if (Cboss > 550 && motivacion > 0) {
         if (!musica.isPlaying()) musica.loop();
+        musica.setVolume(0.2);
         Nivel = "Finalfeliz";
       }
       if (Cboss > 550 && motivacion == 0) {
@@ -178,13 +179,13 @@ function draw() {
     case "Creditos":     
       Cboss++;
     
-      if (Nivel == "Creditos" && final == "feliz" && reiniciar == false) {
-        let transicion3 = map(Cboss, 500, 700, 0, 200);
+      if (Nivel == "Creditos" && final == "feliz" ) {
+        let transicion3 = map(Cboss, 600, 700, 0, 200);
         fill(249, 211, 227, transicion3);
         rect(0, 0, width, height);
       }
       
-    if (Nivel == "Creditos" && final == "triste" && reiniciar == false) {    
+    if (Nivel == "Creditos" && final == "triste") {    
       fill(100);
       rect(0, 0, width, height); 
       }
@@ -198,7 +199,7 @@ function draw() {
       print(reiniciar);
       print(Cboss);
       
-      if(reiniciar == true){
+     /* if(reiniciar == true){
         if(final == "feliz"){
             fill(249, 211, 227, transicion4);
         }
@@ -208,7 +209,7 @@ function draw() {
       
         rect(0, 0, width, height);
         
-      }
+      }*/
       break;
   }
 

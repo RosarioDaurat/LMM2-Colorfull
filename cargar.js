@@ -60,7 +60,10 @@ function preload() {
   musica = loadSound("sonidos/musicaparte1.mp3");
   lluvia1 = loadSound("sonidos/Lluvia1.mp3");
   Trueno = loadSound("sonidos/Trueno.mp3");
+  //final = loadSound("sonidos/final.mp3");
+
   efecto.setVolume(0.3);
+ // final.setVolume(0.2);
   Trueno.setVolume(0.2);
   lluvia1.setVolume(0.4);
   musica.setVolume(0.3);
