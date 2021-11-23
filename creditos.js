@@ -131,7 +131,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
   }
   
   if(this.transicion == true){
-    window.location.reload();
+    window.location.href = window.location.href;
   }
 }
 }
