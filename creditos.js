@@ -28,12 +28,12 @@ Mostrar(){
     
   }else if( final == "triste"){
   image(nubeMala, 590, this.y, 300, 111);
-   image(nubeMala, 770, this.y-200, 370, 170);
+   image(nubeMala, 760, this.y-190, 380, 180);
    image(nubeMala, 400, this.y-500, 300, 111);
    image(nubeMala, 700, this.y-650, 360, 140);
    image(nubeMala, 200, this.y-860, 300, 111);
-   image(nubeMala, 1000, this.y-1000, 300, 111);
-   image(nubeMala, 500, this.y-1200, 360, 140);
+   image(nubeMala, 1000, this.y-1010, 300, 111);
+   image(nubeMala, 500, this.y-1220, 360, 140);
      
   }
 
@@ -85,7 +85,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
       pop();
   
   
-  if(Cboss > 1800){
+  if(Cboss > 1650){
     this.y2+=3;
   }
   
@@ -130,7 +130,7 @@ image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
     }
   }
   
-  if(this.transicion == true){
+  if(this.transicion == true && this.x == -100 ){
     window.location.href = window.location.href;
   }
 }

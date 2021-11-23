@@ -56,14 +56,14 @@ function NubeCeleste() {
         }
       }
 
-      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz") {
+      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 600) {
           cambiar = 100;
           cd = 159;
         }
       }
 
-      if (Nivel == "Boss" || Nivel == "Finalfeliz") {
+      if (Nivel == "Boss" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 6000) {
           cambiar = 1000;
           cd = 159;
@@ -157,14 +157,14 @@ function NubeRosa() {
         }
       }
 
-      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz") {
+      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 600) {
           cambiar = 200;
           cd = 159;
         }
       }
 
-      if (Nivel == "Boss" || Nivel == "Finalfeliz") {
+      if (Nivel == "Boss" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 6000) {
           cambiar = 2000;
           cd = 159;
@@ -260,14 +260,14 @@ function NubeLila() {
         }
       }
 
-      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz") {
+      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 600) {
           cambiar = 300;
           cd = 159;
         }
       }
 
-      if (Nivel == "Boss" || Nivel == "Finalfeliz") {
+      if (Nivel == "Boss" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 6000) {
           cambiar = 3000;
           cd = 159;
@@ -361,14 +361,14 @@ function NubeVerde() {
         }
       }
 
-      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz") {
+      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 600) {
           cambiar = 400;
           cd = 159;
         }
       }
 
-      if (Nivel == "Boss" || Nivel == "Finalfeliz") {
+      if (Nivel == "Boss" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 6000) {
           cambiar = 4000;
           cd = 159;
@@ -462,14 +462,14 @@ this.cambio = false;
           cd = 159;
         }
       }
-      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz") {
+      if (Nivel == "Tormenta2" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 600) {
           cambiar = 500;
           cd = 159;
         }
       }
 
-      if (Nivel == "Boss" || Nivel == "Finalfeliz") {
+      if (Nivel == "Boss" || Nivel == "Finalfeliz" || Nivel == "Creditos" && final == "feliz") {
         if (cambiar <= 6000) {
           cambiar = 5000;
           cd = 159;
@@ -510,8 +510,8 @@ this.cambio = false;
 function NubeArcoiris() { //---NUBE ARCOIRIS
   this.x = random(width);
   this.y = random(-400, -150);
-  this.tamx = random(300/2, 300);
-  this.tamy = random(183/2, 183);
+  this.tamx = 250;
+  this.tamy = 153;
   this.n = 0;
   this.cambio = false;
 
@@ -583,7 +583,7 @@ function NubeArcoiris() { //---NUBE ARCOIRIS
 
      if (this.cambio == true && final == "ninguno") {
         if(!efecto.isPlaying())efecto.play();
-      if (motivacion == 0 && contMot == 160) {
+      if (motivacion == 0 && contMot == 160 || motivacion == 1 && contMot == 160 || motivacion == 2 && contMot == 160) {
         motivacion = 3;
         contMot = 159;
       }
@@ -603,8 +603,8 @@ function NubeGris() {
   //---NUBE GRIS
   this.x = random(width);
   this.y = random(-400, -150);
-  this.tamx = random(320/2, 320);
-  this.tamy = random(118/2, 118);
+  this.tamx = random(370/2, 370);
+  this.tamy = random(140/2, 140);
   this.n = 0;
   this.cambio = false;
 

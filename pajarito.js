@@ -2,46 +2,46 @@ function pajaro() {
   let mil = millis();
   //KIWIBEBE
   if (cambiar == 0) {
-    image(gif, booble.x - 35, booble.y - 25, 100, 110);
+    image(gif, booble.x - 35, booble.y - 25, 110, 120);
   } else if (cambiar == 1) {
-    image(kiwiCeleste, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiCeleste, booble.x - 30, booble.y - 25,  110, 120);
   } else if (cambiar == 2) {
-    image(kiwiRosa, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiRosa, booble.x - 30, booble.y - 25,  110, 120);
   } else if (cambiar == 3) {
-    image(kiwiLila, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiLila, booble.x - 30, booble.y - 25,  110, 120);
   } else if (cambiar == 4) {
-    image(kiwiVerde, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiVerde, booble.x - 30, booble.y - 25,  110, 120);
   } else if (cambiar == 5) {
-    image(kiwiNaranja, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiNaranja, booble.x - 30, booble.y - 25,  110, 120);
   } else if (cambiar == 6) {
-    image(kiwiGris, booble.x - 30, booble.y - 25, 100, 110);
+    image(kiwiGris, booble.x - 30, booble.y - 25,  110, 120);
   }
   
     //KIWICHICO
    if (cambiar == 10) {
     push();
     imageMode(CENTER);
-    image(kiwiCelesteChico, booble.x, booble.y, 90, 110);
+    image(kiwiCelesteChico, booble.x, booble.y, 100, 120);
     pop();
   }else if (cambiar == 20) {
     push();
     imageMode(CENTER);
-    image(kiwiRosaChico, booble.x, booble.y, 90, 110);
+    image(kiwiRosaChico, booble.x, booble.y, 100, 120);
     pop();
   }else if (cambiar == 30) {
     push();
     imageMode(CENTER);
-    image(kiwiLilaChico, booble.x, booble.y, 90, 110);
+    image(kiwiLilaChico, booble.x, booble.y, 100, 120);
     pop();
   }else if (cambiar == 40) {
     push();
     imageMode(CENTER);
-    image(kiwiVerdeChico, booble.x, booble.y, 90, 110);
+    image(kiwiVerdeChico, booble.x, booble.y, 100, 120);
     pop();
   }else if (cambiar == 50) {
     push();
     imageMode(CENTER);
-    image(kiwiNaranjaChico, booble.x, booble.y, 90, 110);
+    image(kiwiNaranjaChico, booble.x, booble.y, 100, 120);
     pop();
   }
   else if (cambiar == 60) {
@@ -50,14 +50,14 @@ function pajaro() {
         push();
         tint(255,100);
         imageMode(CENTER);
-        image(kiwiGrisChico, booble.x, booble.y, 90, 110); 
+        image(kiwiGrisChico, booble.x, booble.y, 100, 120); 
         pop();
       }
     }
     if(parpadeo == false){
       push();
       imageMode(CENTER);
-      image(kiwiGrisChico, booble.x, booble.y, 90, 110);
+      image(kiwiGrisChico, booble.x, booble.y, 100, 120);
       pop();
     }
     }
@@ -66,27 +66,27 @@ function pajaro() {
    if (cambiar == 100) {
     push();
     imageMode(CENTER);
-    image(kiwiCelesteMediano, booble.x, booble.y, 110, 120);
+    image(kiwiCelesteMediano, booble.x, booble.y, 120, 130);
     pop();
   }else if (cambiar == 200) {
     push();
     imageMode(CENTER);
-    image(kiwiRosaMediano, booble.x, booble.y, 110, 120);
+    image(kiwiRosaMediano, booble.x, booble.y, 120, 130);
     pop();
   }else if (cambiar == 300) {
     push();
     imageMode(CENTER);
-    image(kiwiLilaMediano, booble.x, booble.y, 110, 120);
+    image(kiwiLilaMediano, booble.x, booble.y, 120, 130);
     pop();
   }else if (cambiar == 400) {
     push();
     imageMode(CENTER);
-    image(kiwiVerdeMediano, booble.x, booble.y,110, 120);
+    image(kiwiVerdeMediano, booble.x, booble.y,120, 130);
     pop();
   }else if (cambiar == 500) {
     push();
     imageMode(CENTER);
-    image(kiwiNaranjaMediano, booble.x, booble.y, 110, 120);
+    image(kiwiNaranjaMediano, booble.x, booble.y, 120, 130);
     pop();
   }  else if (cambiar == 600) {
     if(parpadeo == true){
@@ -94,14 +94,14 @@ function pajaro() {
         push();
         tint(255,100);
         imageMode(CENTER);
-        image(kiwiGrisMediano, booble.x, booble.y, 110, 120); 
+        image(kiwiGrisMediano, booble.x, booble.y, 120, 130); 
         pop();
       }
     }
     if(parpadeo == false){
       push();
       imageMode(CENTER);
-      image(kiwiGrisMediano, booble.x, booble.y, 110, 120);
+      image(kiwiGrisMediano, booble.x, booble.y, 120, 130);
       pop();
     }
     }
@@ -110,27 +110,27 @@ function pajaro() {
    if (cambiar == 1000) {
     push();
     imageMode(CENTER);
-    image(kiwiCelesteGrande, booble.x, booble.y, 150, 140);
+    image(kiwiCelesteGrande, booble.x, booble.y, 160, 150);
     pop();
   }else if (cambiar == 2000) {
     push();
     imageMode(CENTER);
-    image(kiwiRosaGrande, booble.x, booble.y,150, 140);
+    image(kiwiRosaGrande, booble.x, booble.y,160, 150);
     pop();
   }else if (cambiar == 3000) {
     push();
     imageMode(CENTER);
-    image(kiwiLilaGrande, booble.x, booble.y, 150, 140);
+    image(kiwiLilaGrande, booble.x, booble.y, 160, 150);
     pop();
   }else if (cambiar == 4000) {
     push();
     imageMode(CENTER);
-    image(kiwiVerdeGrande, booble.x, booble.y, 150, 140);
+    image(kiwiVerdeGrande, booble.x, booble.y,160, 150);
     pop();
   }else if (cambiar == 5000) {
     push();
     imageMode(CENTER);
-    image(kiwiNaranjaGrande, booble.x, booble.y, 150, 140);
+    image(kiwiNaranjaGrande, booble.x, booble.y,160, 150);
     pop();
   }else if (cambiar == 6000) {
     if(parpadeo == true){
@@ -138,14 +138,14 @@ function pajaro() {
         push();
         tint(255,100);
         imageMode(CENTER);
-        image(kiwiGrisGrande, booble.x, booble.y, 150, 140); 
+        image(kiwiGrisGrande, booble.x, booble.y, 160, 150); 
         pop();
       }
     }
     if(parpadeo == false){
       push();
       imageMode(CENTER);
-      image(kiwiGrisGrande, booble.x, booble.y, 150, 140);
+      image(kiwiGrisGrande, booble.x, booble.y, 160, 150);
       pop();
     }
     }
