@@ -55,7 +55,7 @@ function preload() {
    tipografia = loadFont("PatrickHand-Regular.ttf");
   //------------------------MUSICA----------------------------------------
   efecto = loadSound("sonidos/sonidomagico.mp3");
-  aturdido = loadSound("sonidos/aturdido.mp3");
+  aturdido = loadSound("sonidos/aturdido2.mp3");
   canto = loadSound("sonidos/Canto1parte.mp3");
   musica = loadSound("sonidos/musicaparte1.mp3");
   lluvia1 = loadSound("sonidos/Lluvia1.mp3");
@@ -67,7 +67,7 @@ function preload() {
   Trueno.setVolume(0.2);
   lluvia1.setVolume(0.4);
   musica.setVolume(0.3);
-  aturdido.setVolume(0.2);
+  aturdido.setVolume(0.6);
   //----------------------KIWIBEBE----------------------------------------
    gif = loadImage("Kiwis/Kiwi bebe/kiwi bebe blanco.gif");
   kiwiRosa = loadImage("Kiwis/Kiwi bebe/kiwi bebe rosa.gif");
@@ -114,6 +114,7 @@ function preload() {
   baja = loadImage("otros/3baja.png");
   vacia = loadImage("otros/vacia.png");
   nido = loadImage("otros/nido.png");
+  refresh = loadImage("otros/refresh.png");
   
     fondo = fondo1;
 }  

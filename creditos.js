@@ -83,6 +83,7 @@ Reiniciar(){ //METODO PARA REINICIAR EL JUEGO
       push();
   imageMode(CENTER);
 image(nubeRosa, this.x, this.y2, this.tamx, this.tamy);
+image(refresh, this.x-15, this.y2+5, this.tamx/6.3, this.tamy/2.7);
       pop();
   
   
