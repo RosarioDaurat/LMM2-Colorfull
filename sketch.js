@@ -138,13 +138,16 @@ function draw() {
       final = "feliz";
       if (m == 4) {
         pausaGrises = 10;
+        pausa = 10;
         m = 5;
+      }
+      if (contNubes >= 10) {
+        cantColores = 10;
       }
       Cboss++;
       lluvia1.stop();
         Trueno.stop();
-      
-      cantColores = 10;
+     
       
       if(reiniciar == false){
       fill(249, 211, 227, transicion2);
@@ -162,10 +165,6 @@ function draw() {
 
       pausa = 10;
       Cboss++;
-      if (m == 4) {
-        pausa = 10;
-        m = 5;
-      }
 
       Trueno.stop();
       r = 0;
@@ -199,17 +198,6 @@ function draw() {
       print(reiniciar);
       print(Cboss);
       
-     /* if(reiniciar == true){
-        if(final == "feliz"){
-            fill(249, 211, 227, transicion4);
-        }
-         if(final == "triste"){
-            fill(100, transicion4);
-        }
-      
-        rect(0, 0, width, height);
-        
-      }*/
       break;
   }
 

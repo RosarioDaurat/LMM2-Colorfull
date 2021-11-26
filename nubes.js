@@ -683,19 +683,19 @@ function NubeGris() {
     if ((distanciaGris < 80 && cd == 160) || (distanciaRayo < 80 && cd == 160) || (distanciaRayo1 < 80 && cd == 160)) {
       this.cambio = true;
       if (Nivel == "Tormenta1") {
-        if (cambiar <= 50) {
+        if (cambiar <= 60) {
           cambiar = 60;
           cd = 159;
         }
       }
       if (Nivel == "Tormenta2") {
-        if (cambiar <= 500) {
+        if (cambiar <= 600) {
           cambiar = 600;
           cd = 159;
         }
       }
       if (Nivel == "Boss" || Nivel == "Finaltriste") {
-        if (cambiar <= 5000) {
+        if (cambiar <= 6000) {
           cambiar = 6000;
           cd = 159;
         }
@@ -732,8 +732,11 @@ function NubeGris() {
       contMot = 160;
     }
 
-    if (cd <= 159) {
+    if (cd <= 159 && cambiar == 60 || cd <= 159 && cambiar == 600 || cd <= 159 && cambiar == 6000) {
       parpadeo = true;
+    }
+
+    if (cd <= 159) {
       cd--;
     }
 
@@ -741,6 +744,8 @@ function NubeGris() {
       cd = 160;
       parpadeo = false;
     }
+
+   
   };
 }
 
