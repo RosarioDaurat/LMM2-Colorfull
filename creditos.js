@@ -18,20 +18,20 @@ Mostrar(){
   
   if(final == "feliz"){
    image(nubeNaranja, 600, this.y, 300, 140); //GRUPO
-   image(nubeCeleste, 800, this.y-200, 350, 200);//ILUSTRACION
-   image(nubeNaranja, 400, this.y-500, 300, 140);//DISEÑO
-   image(nubeVerde, 700-10, this.y-660, 350, 180);//PROGRAMACION
+   image(nubeCeleste, 810, this.y-200, 380, 230);//ILUSTRACION
+   image(nubeNaranja, 410, this.y-510, 300, 140);//DISEÑO
+   image(nubeVerde, 700-20, this.y-660, 350, 180);//PROGRAMACION
    image(nubeCeleste, 200, this.y-870, 300, 130);//COMISION
    image(nubeNaranja, 1000, this.y-1010, 300, 140);//MATERIA
-   image(nubeRosa, 500, this.y-1220, 300, 140);//FDA
+   image(nubeRosa, 500, this.y-1230, 340, 160);//FDA
   
     
   }else if( final == "triste"){
   image(nubeMala, 590, this.y, 300, 111);
-   image(nubeMala, 760, this.y-190, 380, 180);
+   image(nubeMala, 760, this.y-190, 450, 210);
    image(nubeMala, 400, this.y-500, 300, 111);
-   image(nubeMala, 700, this.y-650, 360, 140);
-   image(nubeMala, 200, this.y-860, 300, 111);
+   image(nubeMala, 700-30, this.y-650, 390, 150);
+   image(nubeMala, 200, this.y-870, 300, 111);
    image(nubeMala, 1000, this.y-1010, 300, 111);
    image(nubeMala, 500, this.y-1220, 360, 140);
      
@@ -47,7 +47,7 @@ Mostrar(){
  }
   textFont(tipografia);
   textSize(20);
-text("Grupo Alcachofa", 590, this.y+10);
+text("Grupo Alcachofa", 590, this.y+20);
   
 text("Ilustracion:",800-10, this.y-230);
 text("Victoria Licciardello \n Franco Colotto \n Alexis Avalos \n Lucia Capponi",800-10,this.y-200);
@@ -55,7 +55,7 @@ text("Victoria Licciardello \n Franco Colotto \n Alexis Avalos \n Lucia Capponi"
 text("Diseño:", 400, this.y-500);
 text("Rosario Daurat", 400, this.y-480);
 text("Programacion:",700, this.y-660);
-text("Elias Bareir Quevedo \n Rosario Daurat", 700, this.y-640);
+text("Elias Bareir Quevedo \n Rosario Daurat", 700, this.y-630);
 
 text("Comision Paucast", 200, this.y-850);
 text("Lenguaje Multimedial II", 1000, this.y-990);
