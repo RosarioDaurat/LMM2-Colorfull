@@ -29,10 +29,10 @@ Mostrar(){
   }else if( final == "triste"){
   image(nubeMala, 590, this.y, 300, 111);
    image(nubeMala, 760, this.y-190, 450, 210);
-   image(nubeMala, 400, this.y-500, 300, 111);
-   image(nubeMala, 700-30, this.y-650, 390, 150);
+   image(nubeMala, 380, this.y-500, 300, 111);
+   image(nubeMala, 700-35, this.y-650, 410, 150);
    image(nubeMala, 200, this.y-870, 300, 111);
-   image(nubeMala, 1000, this.y-1010, 300, 111);
+   image(nubeMala, 990, this.y-1010, 330, 121);
    image(nubeMala, 500, this.y-1220, 360, 140);
      
   }
